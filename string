@@ -1,0 +1,6 @@
+first_name = input("enter the first name: ")
+print("the length of first name:", len(first_name))
+# 2 ---
+
+str = "Hi, $I have $ money in my $ bank"
+print(str.count("$s"))
