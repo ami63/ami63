@@ -1,7 +1,8 @@
-grade = ("c","D","A","A","B","B","A")
-print(grade.count("B"))
-#.......
+nums = (1, 4, 9, 16, 26, 36, 49, 64, 81, 100)
+x = 49
 
-grade = ["c","D","A","A","B","B","A"]
-grade.sort()
-print(grade)
+i = 0 
+while i < len(nums):
+    if (nums[i] == x):
+        print("FOUND at idx", i)
+    i += 1
